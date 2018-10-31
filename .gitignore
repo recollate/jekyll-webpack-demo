@@ -1,0 +1,7 @@
+_site
+.sass-cache
+.jekyll-metadata
+node_modules
+public
+.DS_Store
+src/assets/javascripts/*.js

@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>{{ page.title }}</title>
+  <body>
+    {{ content }}
+    {% if page.js_bundle %}
+      <script type="text/javascript" src="/assets/javascripts/{{ page.js_bundle }}.js" async></script>
+    {% endif %}
+  </body>
+</html>

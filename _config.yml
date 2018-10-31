@@ -1,0 +1,12 @@
+title: Recollate jekyll+webpack test
+email: github@recollate.com
+description: ""
+url: ""
+twitter_username: recollateagency
+github_username:  recollate
+
+markdown: kramdown
+
+destination: public
+source: src
+exclude: ['node_modules']
